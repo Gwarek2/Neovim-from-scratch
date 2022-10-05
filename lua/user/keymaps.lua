@@ -1,4 +1,4 @@
-local opts = { noremap = true, silent = true }
+local opts = { noremap = false, silent = true }
 
 local term_opts = { silent = true }
 
@@ -63,6 +63,7 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
+-- Remap "^" to "0"
 keymap("n", "0", "^", opts)
 keymap("v", "0", "^", opts)
 keymap("x", "0", "^", opts)
