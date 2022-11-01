@@ -90,7 +90,7 @@ return packer.startup(function(use)
 	}
 
 	-- Git
-	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
+	use { "lewis6991/gitsigns.nvim", commit = "bf20b5d820a7c8d25b45fd76fe8bee25fc2c7258" }
 
   -- Debug
   use({"mfussenegger/nvim-dap"})

@@ -14,4 +14,4 @@ dap.adapters.cppdbg = {
   command = os.getenv('HOME') .. "/.vscode/extensions/cpptools-linux/extension/debugAdapters/bin/OpenDebugAD7"
 }
 
-dap_ext_vscode.load_launchjs(nil, { cppdbg = {'c', 'cpp'} })
+dap_ext_vscode.load_launchjs(nil, { cppdbg = {'c', 'cpp', 'h', 'hpp'} })
